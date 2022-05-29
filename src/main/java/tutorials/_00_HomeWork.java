@@ -12,8 +12,7 @@ public class _00_HomeWork {
     interpreter nedir ?
     compiler nedir ?
     Java 100/100 oop midir ?
-    heap memory nedir ?
-    stack memory nedir ?
+
 
     2.Araştırma Ödevi
     OOP nedir ?
@@ -26,6 +25,8 @@ public class _00_HomeWork {
 
     Primitive Type nedir ?
     Wrapper Type nedir ?
-   Primitive Type - Wrapper Type  aralarındaki farklar nelerdir ?
+    Primitive Type - Wrapper Type  aralarındaki farklar nelerdir ?
+    heap memory nedir ?
+    stack memory nedir ?
      */
 }
