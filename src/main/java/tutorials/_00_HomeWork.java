@@ -28,5 +28,8 @@ public class _00_HomeWork {
     Primitive Type - Wrapper Type  aralarındaki farklar nelerdir ?
     heap memory nedir ?
     stack memory nedir ?
+    Ascii ,unicode nedir ?
+
+    runtime error ile compiler error farkları nelerdir ? Ahmet Kaan Can
      */
 }
