@@ -12,4 +12,8 @@ public class GitCodes {
     git branch
     */
 
+    /*
+    iyi bir commit özellikleri nelerdir ?
+     */
+
 }
