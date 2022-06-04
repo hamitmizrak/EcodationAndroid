@@ -2,7 +2,7 @@ package tutorials;
 
 import java.util.Random;
 
-public class _16_Random {
+public class _17_Random {
     public static void main(String[] args) {
 
         //Math
