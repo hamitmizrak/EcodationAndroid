@@ -32,10 +32,7 @@ public class _11_String {
         System.out.println(kelime.substring(0,4));  //0<=X<= (4-1)
         System.out.println(kelime.concat(" -sona ekleme"));  //0<=X<= (4-1)
 
-
-
-
-
+        System.out.println("Dolu mu Boş mu: " +kelime.isEmpty());  //0<=X<= (4-1)
 
     }
 }
