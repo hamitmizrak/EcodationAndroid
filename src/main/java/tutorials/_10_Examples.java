@@ -26,5 +26,7 @@ public class _10_Examples {
         //örnek-3: 5+6*2/2+62-9 ==> Java ile hesaplıyalım ?
 
 
+
+
     }
 }
