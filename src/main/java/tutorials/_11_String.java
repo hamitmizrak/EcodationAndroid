@@ -6,7 +6,7 @@ import lombok.extern.log4j.Log4j2;
 public class _11_String {
     public static void main(String[] args) {
         //String:
-        String kelime="Android java firebase java";
+        String kelime="Android java firebase java deneme";
         System.out.println(kelime);
 
         System.out.println("bosluklari al: "+kelime.trim());
