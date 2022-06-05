@@ -25,6 +25,5 @@ public class _29_PasswordRePassword {
             System.out.println("Þifreler farklý");
         }
 
-
     }
 }

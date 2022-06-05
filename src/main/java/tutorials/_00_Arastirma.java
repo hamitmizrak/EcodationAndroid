@@ -12,4 +12,6 @@ public class _00_Arastirma {
     //Ahmet: Java 8 gelen strem api  nelerdir örnekler yapmak?
     //Baver: Java 8 gelen optional   nelerdir örnekler yapmak ?
 
+    //Ahmet-Bayer: //for-while arasýndaki farklar nelerdir?
+
 }
