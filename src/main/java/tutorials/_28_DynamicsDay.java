@@ -3,7 +3,7 @@ package tutorials;
 
 import java.util.Date;
 
-public class _28_Examples {
+public class _28_DynamicsDay {
     public static void main(String[] args) {
 
         //Sistem tarihinde (Date) günlerden bugun Pazartesi ise
