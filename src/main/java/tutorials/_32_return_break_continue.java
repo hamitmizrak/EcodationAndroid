@@ -1,7 +1,5 @@
 package tutorials;
 
-
-import java.util.Random;
 import java.util.Scanner;
 
 public class _32_return_break_continue {
@@ -33,5 +31,10 @@ public class _32_return_break_continue {
 
         System.out.println("Toplamlarý: "+sum);
 
+        //try catch
+        //metotlarý
+        //final
+        //static
+        //diziler
     }
 }
