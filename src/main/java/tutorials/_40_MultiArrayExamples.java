@@ -1,6 +1,6 @@
 package tutorials;
 import java.util.Scanner;
-public class _40_MultiArray {
+public class _40_MultiArrayExamples {
     //kullanýcýdan alýncak 5 tane sayýyý diziye atayalým
     //1-)eleman toplamlarý
     //2-)tek sayýlarý  toplamlarý
