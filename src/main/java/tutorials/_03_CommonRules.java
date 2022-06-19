@@ -9,6 +9,6 @@ public class _03_CommonRules {
     paketler  ==> unique (eşşiz demektir)
     Const     ==> BUYUK_HARFLERLE_YAZILIR
     değişkenler: camelCase
-    valu
+    value
      */
 }
