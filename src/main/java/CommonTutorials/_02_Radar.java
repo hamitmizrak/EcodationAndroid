@@ -14,7 +14,7 @@ public class _02_Radar {
     private static int AMOUNT = 0;
     private static int HOW_MANY = 0;
 
-
+    //kullanýcýdan veri almak
     public static int dataScanner() {
         Scanner klavye = new Scanner(System.in);
         System.out.println("++++++++++++++\nHýzýnýzý giriniz");
@@ -22,6 +22,7 @@ public class _02_Radar {
         return data;
     }
 
+    //radar method
     public static void radar() {
         int speed = dataScanner();
 
