@@ -28,8 +28,8 @@ public class _02_Radar {
 
         if (HOW_MANY >= 5) {
             System.out.println("Ehliyetine el konuldu");
-            System.exit(0);
-            //return;
+            //System.exit(0);
+            return;
         } else {
             if (80 <= speed && speed <= 94) {
                 AMOUNT = AMOUNT + 800;
