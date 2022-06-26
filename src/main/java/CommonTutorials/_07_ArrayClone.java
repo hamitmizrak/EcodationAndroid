@@ -1,6 +1,5 @@
 package CommonTutorials;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -11,6 +10,9 @@ import java.util.Scanner;
 // en küçük sayýyý ve en büyük sayýyý bulalým ? ( diziyele yapalým)
 // bu sayýlarýn toplamýný
 // bu sayýlarýn ortalamasý
+// tek sayýlar kaç tane ve tek sayý toplamlarý
+// çift sayýlar  kaç tane ve çift sayý toplamlarý
+// dizilerde en büyük 2. sayý bulalým
 
 public class _07_ArrayClone {
 
@@ -34,6 +36,7 @@ public class _07_ArrayClone {
     }
 
     public static void resultArraySortingBigNumber(int[] dizi) {
+
         //clone alýnacak
         int[] clone = new int[dizi.length];
         for (int i = 0; i < dizi.length; i++) {
