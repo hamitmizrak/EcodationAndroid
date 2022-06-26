@@ -8,13 +8,16 @@ import java.util.Scanner;
 // bu diziyi bir diziye atayalým sonra bu diziyi baþka bir diziye clone edelim.
 // clonelanmýþ bu dizi bu sayýlarý küçükten  büyüðe doðru sýralayýn
 // en küçük sayýyý ve en büyük sayýyý bulalým ? ( diziyele yapalým)
+// bu sayýlarýn toplamýný
+// bu sayýlarýn ortalamasý
+
 public class _07_ArrayClone {
 
     //kullacýdan  eleman sayýsýný almak
-    public static int userNumber(){
-        Scanner klavye=new Scanner(System.in);
+    public static int userNumber() {
+        Scanner klavye = new Scanner(System.in);
         System.out.println("Dizi eleman sayýsýný giriniz");
-        int number=klavye.nextInt();
+        int number = klavye.nextInt();
         return number;
     }
 
@@ -30,22 +33,32 @@ public class _07_ArrayClone {
     }
 
     public static void resultArraySortingBigNumber(int[] dizi) {
+        //clone alýnacak
         int[] clone = new int[dizi.length];
         for (int i = 0; i < dizi.length; i++) {
             clone[i] = dizi[i];
         }
+
+        //diziyi sýralasýn
         Arrays.sort(clone);
         for (int temp : clone) {
             System.out.print(temp + " ");
         }
+
+        //sayý toplamý ve ortalamasý
+        double sum=0,average=0;
+        for (int i = 0; i < clone.length; i++) {
+            sum+=clone[i];
+        }
+
         System.out.println("\nen küçük sayý: " + clone[0]);
         System.out.println("en büyük sayý: " + clone[clone.length - 1]);
+        System.out.println("toplamlarý: " + sum);
+        System.out.println("ortalama: " + sum/clone.length);
     }
 
+    //PSVM
     public static void main(String[] args) {
-
         resultArraySortingBigNumber(returnRandomArray());
-
     }
-
 }
