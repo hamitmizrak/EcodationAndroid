@@ -65,7 +65,6 @@ public class ListTuto {
             System.out.println(temp);
         }
 
-
         //addAll(): bir listeye baþka bir liste eklemek
         List<String> ulke=new ArrayList<>();
         ulke.add("Türkiye");
@@ -83,7 +82,6 @@ public class ListTuto {
         iller.clear();
         System.out.println("\n");
         iller.forEach(System.out::println);
-
     }
 
     //PSVM
