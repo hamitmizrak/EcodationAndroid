@@ -21,9 +21,14 @@ public class GenericsTuto<T> {
         this.value = value;
     }
 
-    //generics method
-    public <K> void genericsMethod(K value){
-        System.out.println(value);
+    //generics method (istediðimiz kadar generics parametre verebiliriz.
+    public <K> void genericsMethod1(K value1,K value2){
+        System.out.println(value1+" "+value2);
+    }
+
+    //generics method sadece Integer olsun istersek
+    public <K extends  Integer> void genericsMethod2(K value1){
+        System.out.println(value1);
     }
 
     //getter and setter
@@ -41,6 +46,7 @@ public class GenericsTuto<T> {
         System.out.println(tuto.getValue());
         tuto.setValue(55.63);
         System.out.println(tuto.getValue());
-        tuto.genericsMethod(true);
+        tuto.genericsMethod1(true,"merhabalar");
+        tuto.genericsMethod2(55);
     }
 }
