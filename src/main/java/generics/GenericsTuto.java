@@ -1,4 +1,4 @@
-package datastructure;
+package generics;
 
 //Generics:
 // <> ile gösterilir
