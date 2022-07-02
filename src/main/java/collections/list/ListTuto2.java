@@ -20,7 +20,6 @@ public class ListTuto2 {
         iller.add("Malatya");
         iller.add("Balikesir");
 
-
         System.out.println("******Iterator döngü*************");
         //3-) Iterator döngü
         Iterator iterator= iller.iterator();
@@ -51,7 +50,6 @@ public class ListTuto2 {
 
         System.out.println("******Collections.binarySearch(liste,kelime): *************");
         System.out.println(java.util.Collections.binarySearch(iller,"Elazýð"));
-
     }
 
     //PSVM
