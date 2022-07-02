@@ -1,12 +1,14 @@
 package collections.set;
 
-//HaLaT
+// Set : tekrarsýz veri demektir
+// HaLaT
 // Set bit interface'dir.
-//HashSet: Karýþýk veri döndürür
-//LinkedHashSet : Eklediðimiz sýrada bize veri döndürür
-//TreeSet    : Küçükten büyüðe Tekrarsýz verir
+// HashSet       : Karýþýk veri döndürür                  (ekleme sýrasý yani indisi önemsizse)
+// LinkedHashSet : Eklediðimiz sýrada bize veri döndürür  (ekleme sýrasý yani indisi önemliyse)
+// TreeSet       : Küçükten büyüðe Tekrarsýz verir
+// Hýzlýlýðý: HashSet > LinkedHashSet > TreeSet
 
-//Dikkat: YOKTUR
+// Dikkat: YOKTUR
 // get
 // indexOf lastIndexOf
 // subList

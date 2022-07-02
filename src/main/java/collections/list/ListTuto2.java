@@ -13,7 +13,7 @@ public class ListTuto2 {
         //List<String> iller=new ArrayList<>();
         List<String> iller=new LinkedList<>();
 
-        //add() ==> listeye veri eklemye yarar.
+        //add() ==> listeye veri eklemeye yarar.
         iller.add("Malatya");
         iller.add("Elazýð");
         iller.add("Bingöl");
@@ -41,9 +41,18 @@ public class ListTuto2 {
         for(String temp :iller){
             System.out.println(temp);
         }
+
         //Collections.shuffle(liste: Karýþýk
         java.util.Collections.shuffle(iller);
         System.out.println("******Collections.reverse(): Karýþýk*************");
+        for(String temp :iller){
+            System.out.println(temp);
+        }
+
+        //unmodifiableList: listeye artýk yeni veriler eklenmesini istemiyorsak
+        //Exception: Exception in thread "main" java.lang.UnsupportedOperationException
+        iller= java.util.Collections.unmodifiableList(iller);
+        iller.add("eklenmez");
         for(String temp :iller){
             System.out.println(temp);
         }
