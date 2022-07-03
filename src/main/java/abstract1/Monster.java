@@ -1,4 +1,4 @@
-package abstractx;
+package abstract1;
 
 public class Monster extends Computer {
 

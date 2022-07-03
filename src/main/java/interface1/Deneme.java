@@ -1,4 +1,4 @@
-package interfacex;
+package interface1;
 
 public class Deneme {
 }

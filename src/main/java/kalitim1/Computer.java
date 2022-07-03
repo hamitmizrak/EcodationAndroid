@@ -1,4 +1,4 @@
-package kalitimx;
+package kalitim1;
 //java single inheritance(Kalıtım)
 public class Computer {
     private long id;

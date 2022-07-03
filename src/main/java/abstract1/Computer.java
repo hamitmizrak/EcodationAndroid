@@ -1,4 +1,4 @@
-package abstractx;
+package abstract1;
 //java single inheritance(Kalıtım)
 abstract public class Computer {
     private long id;
