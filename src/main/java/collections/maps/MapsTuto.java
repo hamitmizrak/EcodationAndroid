@@ -64,11 +64,6 @@ public class MapsTuto {
         System.out.println("\n****** FOREACH *********");
         mapList.entrySet().forEach(System.out::println);
 
-
-
-
-
-
     }
 
     public static void main(String[] args) {
