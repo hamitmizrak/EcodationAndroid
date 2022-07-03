@@ -22,7 +22,6 @@ import java.util.Set;
 // LinkedHashMap ==> Ýndis sýrasý önemliyse eklenen sýrada gelir
 // TreeMap       ==> Küçükten büyüðe doðru sýralama söz konusudur.
 public class MapsTuto {
-
     public static void mapTutorials(){
         Map<String,Object> mapList=new LinkedHashMap<>();
         mapList.put("1","Hamit");
