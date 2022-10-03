@@ -11,9 +11,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Kitap {
-    private long id;
-    private String kitapAdi;
-    private String kitapFiyati;
+
+    //Kalıtımla (extends) alt sınıftan üst sınıfın fieldslerine ulaşmak istersen mutlaka protected olmalı.
+    //protected:sınıf içerisinde metotlara veya değişkenlere alt classtakiler erişsin ancak farklı pakettekiler erişemesin.
+
+    protected long id;
+    protected String kitapAdi;
+    protected String kitapFiyati;
 
     public void anaMethod(){
         System.out.println(id+" "+kitapAdi+" ");

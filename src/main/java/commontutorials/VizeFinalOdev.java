@@ -1,4 +1,4 @@
-package CommonTutorials;
+package commontutorials;
 
 public class VizeFinalOdev {
 

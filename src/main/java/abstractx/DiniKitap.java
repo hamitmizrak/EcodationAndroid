@@ -1,10 +1,7 @@
-package kalitim2;
-
+package abstractx;
 
 import lombok.Getter;
 import lombok.Setter;
-
-
 
 @Getter
 @Setter
@@ -25,13 +22,17 @@ public class DiniKitap extends Kitap {
 
     }
 
-    @Override
     public void anaMethod() {
         //üst atadan method çağırmak
-        super.anaMethod();
+        super.govdeliMethod();
 
         //üst aradan veri çağırmak
         super.setId(66);
         System.out.println("Dini Kitap Ana method");
+    }
+
+    @Override
+    public void govdesizMethod() {
+        System.out.println("Dini Kitap Gövdesiz mthod");
     }
 }

@@ -1,7 +1,6 @@
-package CommonTutorials;
+package commontutorials;
 
 import java.util.Random;
-import java.util.Scanner;
 
 // step-1 1-10 arasýnda rastgele sayý üreten 5 tane sayý üreten  bir algoritma ?
 // step-2 bu sayý toplamlarý hesaplayýn ?

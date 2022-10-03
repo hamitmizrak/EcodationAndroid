@@ -1,4 +1,4 @@
-package CommonTutorials;
+package commontutorials;
 
 import java.util.Scanner;
 

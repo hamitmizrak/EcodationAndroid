@@ -1,4 +1,4 @@
-package CommonTutorials;
+package commontutorials;
 import java.util.Scanner;
 
 // Kullanýcýdan alýnan bilgilere göre doðru kullanýcý adý ve þifre girerse sisteme giriþ saðlanacak

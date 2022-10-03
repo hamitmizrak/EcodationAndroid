@@ -1,6 +1,5 @@
-package CommonTutorials;
+package commontutorials;
 
-import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.StringTokenizer;
